@@ -50,22 +50,10 @@
 					</div>
 					<h4>PROFESSIONAL SYNOPSIS</h4>
 					<div class="row">
-						<div class="col-xs-12">
-								Microsoft certified HTML5 with JavaScript and CSS3 specialist.
-								Result oriented with a total of around 2 years of professional experience in UI Development
-								Currently associated with Tata Consultancy Services, Chennai as System Engineer since July 2013
-								Following Agile Methodology.
-								Experienced in Object oriented JavaScript and MVC.
-								Experienced in development - Requirement Analysis, Design, Development and Regression Testing.
-								Both functionally & technically competent with a strong focus on quality and can easily scale up and adapt to any new technology.
-								Worked in projects as a single resource.
-								An effective leader and communicator with strong interpersonal, leadership, analytical and people management skills.  
-								Excellent trouble shooting, multitasking and problem solving skills.
-								Good Exposure to Configuration and customization.
-								Good Exposure to programming.
-								Training and development
-								Experience of Interacting with the Client & Understanding requirements 
-						</div>
+						<ul class="col-xs-12" ng-repeat="item in heading.synopsis">
+							<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>{{synopsis.item}}</li>
+							
+						</ul>
 					</div>
 					<h4>TECHNICAL SKILLS </h4>
 					<div class="row">
