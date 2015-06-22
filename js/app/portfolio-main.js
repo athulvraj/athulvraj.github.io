@@ -9,7 +9,8 @@ function myController($scope){
 
    phone:"+91 8939123432",
 
-   address:"Correspondence address<br>WF3,Ambrosiya Apts<br>Kumaran Nagar	Chennai-60019"
+   address:"Correspondence address<br>WF3,Ambrosiya Apts<br>Kumaran Nagar	Chennai-60019",
+   objectieve:"To obtain a long term career with an organization which has a strong background that provides good opportunity for enhancement of professional and personal skills. To be a continuous winner by being a perfect team player and adding value to the organization in all domains possible."
  }
   
   
