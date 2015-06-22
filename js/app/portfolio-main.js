@@ -1,4 +1,4 @@
-var myApp=angular.module("myApp",[ngSanitize]); 
+var myApp=angular.module("myApp",['ngSanitize']); 
 myApp.controller("myController",
 function myController($scope){
  $scope.heading={
