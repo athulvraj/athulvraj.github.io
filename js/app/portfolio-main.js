@@ -8,8 +8,9 @@ function myController($scope){
      phone:"+91 8939123432",
      address:"<b>Correspondence address</b><br>WF3,Ambrosiya Apts<br>Kumaran Nagar	Chennai-60019",
      objectieve:"To obtain a long term career with an organization which has a strong background that provides good opportunity for enhancement of professional and personal skills. To be a continuous winner by being a perfect team player and adding value to the organization in all domains possible.",
-     head_objectieve:"CAREER OBJECTIVE",
-     synopsis:[{item:"Microsoft certified HTML5 with JavaScript and CSS3 specialist."},
+     head_objectieve:"CAREER OBJECTIVE"
+ },
+ $scope.synopsis=[{item:"Microsoft certified HTML5 with JavaScript and CSS3 specialist."},
                {item:"Result oriented with a total of around 2 years of professional experience in UI Development "},
                {item:"Currently associated with Tata Consultancy Services, Chennai as System Engineer since July 2013"}, 
                {item:"Following Agile Methodology. "},
@@ -23,7 +24,6 @@ function myController($scope){
                {item:"Good Exposure to programming. "},
                {item:"Training and development "},
                {item:"Experience of Interacting with the Client & Understanding requirements"}]
- }
   
   
 });
