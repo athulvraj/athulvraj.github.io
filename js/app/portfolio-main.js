@@ -1,4 +1,4 @@
-var myapp=angular.module("myApp",[]); 
+var myApp=angular.module("myApp",[]); 
 myApp.controller("myController",
 function myController($scope){
  $scope.heading=[{
