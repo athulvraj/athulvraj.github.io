@@ -1,4 +1,6 @@
-body { padding-bottom: 70px; }
+body { margin:0px;
+padding:0px;
+padding-bottom: 70px; }
 h1{
     font-weight: bold;
     color:tomato;
