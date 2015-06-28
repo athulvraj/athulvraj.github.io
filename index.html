@@ -11,122 +11,124 @@
 		<title>Athul V Raj</title>
 	</head>
 	<body ng-app="myApp">
-		 <nav id="myNavbar" class="navbar navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Profile</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#" target="_blank">About</a></li>
-                <li><a href="#" target="_blank">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+		<nav id="myNavbar" class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Profile</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#" target="_blank">About</a></li>
+						<li><a href="#" target="_blank">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="container" ng-controller="myController">
 			<HEADER>
 				<h1 class="col-md-12 text-center">{{heading.name}}</br><small>{{heading.title}}</small></h1>
-			
 			</HEADER>
 			<section>
-				<div class="row">
-					<div class="col-md-6 text-left">{{heading.email}}<br>{{heading.phone}} 
+				<div class="row hidden-xs">
+					<div class="col-md-6 col-sm-6  text-left ">{{heading.email}}<br>{{heading.phone}} 
 					</div>
-					<div class="col-md-6 text-right"ng-bind-html="heading.address">
+					<div class="col-md-6 col-sm-6 text-right"ng-bind-html="heading.address">
 					</div>
-					</div>
-					<h4>{{heading.head_objectieve}}</h4>
-					<div class="row">
-						<div class="col-md-12">{{heading.objectieve}}</div>
-					</div>
-					<h4>PROFESSIONAL SYNOPSIS</h4>
-					<div class="row">
-						<div class="col-md-12" >
-<ul>					
-	<li ng-repeat="items in synopsis">{{items.item}}</li>
-</ul>							
-					
-						</div>
-					</div>
-					<h4>TECHNICAL SKILLS </h4>
-					<div class="row">
-						<div class="col-md-12">
-						<span class="col-md-3 bold">Primary Skills:</span><span class="col-md-9">HTML5, CSS3, RWD, Twitter Bootstrap, Backbone.js, jQuery, JavaScript.</span>
-							<span class="col-md-3 bold">Secondary Skills:</span><span class="col-md-9">Handlebars, Angular.js, XML, JSON, Less</span>
-							<span class="col-md-3 bold">Operating System:</span><span class="col-md-9">Linux, Windows 8/7/XP/2003</span>
-							<span class="col-md-3 bold">Web Designing tools:</span><span class="col-md-9">Eclipse, Dreamweaver, Sublime Text, Firebug, Notepad++, webstorm</span>
-							<span class="col-md-3 bold">Concepts:</span><span class="col-md-9">OOPS, MVC</span>
-						</div>
-					</div>
-					<h4>
-						ACADEMIC CREDENTIALS & CERTIFICATIONS 
-					</h4>
-					<div class="row">
-						<div class="col-md-12">
-								<span class="col-md-2 bold">2015</span><span class="col-md-10">Microsoft certified HTML5 with JavaScript and CSS3 specialist (MCSD 70-480).</span>
-								<span class="col-md-2 bold">2013</span><span class="col-md-10">Bachelor of Technology in Electronics & Communication Engineering,
-							School of Engineering, Cochin University, Kochi, 74.84% aggregate.</span>
-								<span class="col-md-2 bold">2008</span><span class="col-md-10">H.S.C. (Class XII, Computer Science), Kerala State Board, 88% aggregate.</span>
-								<span class="col-md-2 bold">2006</span><span class="col-md-10">S.S.C. (class X) Kerala Secondary Education Examination Board, 92% aggregate.</span>
-						</div>
-					</div>
-					<h4>CAREER HIGHLIGHTS</h4>
-					<div class="row">
-						<div class="col-md-12">
-							Client	              - Citi Bank
-							Duration              - January 2014 to present
-							Role                     - Front End Developer, TCS
-							Language              - HTML5, CSS3, RWD, JavaScript, JSP, Ajax, jQuery, Json,  Backbone, Handlebars,JQuery templates
-							Project Description:
-								Citi Bank is a wealth of experience partnering the world’s leading banks and financial institutions, and a comprehensive range of services and solutions. Reliable and secure systems that address market changes quickly, develop profitable customer relationships and secure new opportunities to stay ahead of competition. Comprehensive, end-to-end, domain-led business process solutions that enable Banking and Financial Services institutions to focus on their core financial services competencies.
-							Roles and Responsibilities
-							•	Involved in new Features Development, Design Review, and Impact Analysis.
-							•	Worked in an 8 member team for Development and helped delivering the tasks on time.
-							•	Responsible for training new resources Status report preparation and Updating Off-shore weekly and daily status to the on-site team.
-							•	Involved in configuration activities, customization
-							•	Using agile methodology 
-							•	Technologies such as HTML, CSS, JavaScript, JQuery, JSP, JSON, Ajax etc
-							•	Looking at technical feasibility of the solution along with functional team members.
-							•	Training and mentoring other team members; also taking care of peer Design reviews.
-							Client		- Tata Consultancy Services
-							Duration 	- October 2013 to December 2013
-							Role        	- UI Developer and Designer
-							Language 	- HTML5, CSS3, Bootstrap, JavaScript, JQuery, JSON, Ajax, Datatables etc.
-							Project Description:
-								The project was to migrate the Management portal tool to HTML5 with responsive web design. The project covered the aspects such as pulling reports, exporting tables and data into various file formats such as doc, xls, pdf etc. 
-							Roles and Responsibilities
-							•	Responsible for designing, developing, testing and troubleshooting the application..
-							•	Worked in a 2 member team for Development and helped delivering the tasks on time.
-							•	Responsible for training new resources and Status report.
-							•	Looking at technical feasibility of the solution along with functional team members.
-						</div>
-					</div>
-					<h4>PERSONAL INFORMATION</h4>
-					<div class="row">
-						<div class="col-md-12">
-							<span class="col-md-3 bold">Permanent Address:</span><span class="col-md-9">Athena, Poovattoor East, Kalayapuram PO, Kollam, Kerala -691560</span>
-							<span class="col-md-3 bold">Nationality	:</span><span class="col-md-9">Indian</span>
-							<span class="col-md-3 bold">Date of Birth:</span><span class="col-md-9">22nd Dec 1990</span>
-							<span class="col-md-3 bold">Gender:</span><span class="col-md-9">Male</span>
-							<span class="col-md-3 bold">Father’s Name:</span><span class="col-md-9">Somarajan Pillai</span>                        
-							<span class="col-md-3 bold">Languages:</span><span class="col-md-9">English, Malayalam, Hindi, Tamil</span>
-							<span class="col-md-3 bold">Interests:</span><span class="col-md-9">Music, Movies, Sports</span>
-						</div>
-					</div>
-					
 				</div>
-			</section>
-                            <footer></footer>
+				<h3>{{heading.head_objectieve}}</h3>
+				<div class="row">
+					<div class="col-md-12 well">{{heading.objectieve}}</div>
+				</div>
+				<h3>PROFESSIONAL SYNOPSIS</h3>
+				<div class="row well">
+					<div class="col-md-12" >
+						<ul>
+							<li ng-repeat="items in synopsis">{{items.item}}</li>
+						</ul>
+					</div>
+				</div>
+				<h3>TECHNICAL SKILLS </h3>
+				<div class="row">
+					<div class="col-md-12">
+						<strong class="col-md-2 col-sm-3  col-xs-12 ">Primary Skills:</strong><span class="col-md-10 col-sm-9 col-xs-12">HTML5, CSS3, RWD, Twitter Bootstrap, Backbone.js, jQuery, JavaScript.</span>
+						<strong class="col-md-2 col-sm-3  col-xs-12 ">Secondary Skills:</strong><span class="col-md-10 col-sm-9 col-xs-12">Handlebars, Angular.js, XML, JSON, Less</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Operating System:</strong><span class="col-md-10 col-sm-9 col-xs-12">Linux, Windows 8/7/XP/2003</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Web Designing tools:</strong><span class="col-md-10 col-sm-9 col-xs-12">Eclipse, Dreamweaver, Sublime Text, Firebug, Notepad++, webstorm</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Concepts:</strong><span class="col-md-10 col-sm-9 col-xs-12">OOPS, MVC</span>
+					</div>
+				</div>
+				<h3>
+					ACADEMIC CREDENTIALS & CERTIFICATIONS 
+				</h3>
+				<div class="row">
+					<div class="col-md-12">
+						<strong class="col-md-2 col-xs-2 ">2015</strong><span class="col-md-10 col-xs-10">Microsoft certified HTML5 with JavaScript and CSS3 specialist (MCSD 70-480).</span>
+						<strong class="col-md-2 col-xs-2 ">2013</strong><span class="col-md-10 col-xs-10">Bachelor of Technology in Electronics & Communication Engineering,
+						School of Engineering, Cochin University, Kochi, 74.84% aggregate.</span>
+						<strong class="col-md-2 col-xs-2 ">2008</strong><span class="col-md-10 col-xs-10">H.S.C. (Class XII, Computer Science), Kerala State Board, 88% aggregate.</span>
+						<strong class="col-md-2 col-xs-2 ">2006</strong><span class="col-md-10 col-xs-10">S.S.C. (class X) Kerala Secondary Education Examination Board, 92% aggregate.</span>
+					</div>
+				</div>
+				<h3>CAREER HIGHLIGHTS</h3>
+				<div class="row">
+					<strong class="col-md-2 col-sm-2  col-xs-12 ">Client</strong><span class="col-md-10 col-sm-10 col-xs-12">Citi Bank</span>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Duration</strong><span class="col-md-10 col-sm-10 col-xs-12">January 2014 to present</span>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Role</strong> <span class="col-md-10 col-sm-10 col-xs-12">Front End Developer, TCS</span>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Language</strong><span class="col-md-10 col-sm-10 col-xs-12">HTML5, CSS3, RWD, JavaScript, JSP, Ajax, jQuery, Json,  Backbone, Handlebars,JQuery templates</span>
+					<strong class="col-md-12 col-sm-12 col-xs-12">Project Description:</strong>
+					<div class="col-md-offset-2 col-sm-offset-2 col-md-10 col-sm-10 col-xs-12 well"> Citi Bank is a wealth of experience partnering the world’s leading banks and financial institutions, and a comprehensive range of services and solutions. Reliable and secure systems that address market changes quickly, develop profitable customer relationships and secure new opportunities to stay ahead of competition. Comprehensive, end-to-end, domain-led business process solutions that enable Banking and Financial Services institutions to focus on their core financial services competencies.</div>
+					<strong class="col-md-12 col-sm-12">Roles and Responsibilities</strong>
+					<div id="rolesnresp"class="col-md-offset-2 col-sm-offset-2 col-xs-offset-0 col-md-10 col-sm-10 col-sm-10 col-xs-12 well">
+						<ul>
+							<li>Involved in new Features Development, Design Review, and Impact Analysis.</li>
+							<li>	Worked in an 8 member team for Development and helped delivering the tasks on time.</li>
+							<li>	Responsible for training new resources Status report preparation and Updating Off-shore weekly and daily status to                                    the on-site team.</li>
+							<li>	Involved in configuration activities, customization</li>
+							<li>	Using agile methodology </li>
+							<li>	Technologies such as HTML, CSS, JavaScript, JQuery, JSP, JSON, Ajax etc</li>
+							<li>Looking at technical feasibility of the solution along with functional team members.</li>
+							<li>Training and mentoring other team members; also taking care of peer Design reviews.</li>
+						</ul>
+					</div>
+					<hr class="col-md-12 col-xs-12"/>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Duration</strong><span class="col-md-10 col-sm-10 col-xs-12">October 2013 to December 2013</span>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Role</strong> <span class="col-md-10 col-sm-10 col-xs-12">UI Developer and Designer</span>
+					<strong class="col-md-2 col-sm-2 col-xs-12">Language</strong><span class="col-md-10 col-sm-10 col-xs-12">HTML5, CSS3, Bootstrap, JavaScript, JQuery, JSON, Ajax, Datatables etc.</span>
+					<strong class="col-md-12 col-sm-12 col-xs-12">Project Description:</strong>
+					<div class="col-md-offset-2 col-sm-offset-2 col-md-10 col-sm-10 col-xs-12 well">The project was to migrate the Management portal tool to HTML5 with responsive web design. The project covered the aspects such as pulling reports, exporting tables and data into various file formats such as doc, xls, pdf etc. </div>
+					<strong class="col-md-12 col-sm-12 col-xs-12">Roles and Responsibilities</strong>
+					<div id="rolesnresp"class="col-md-offset-2 col-sm-offset-2 col-xs-offset-0 col-md-10 col-sm-10 col-sm-10 col-xs-12 well">
+						<ul>
+							<li>Responsible for designing, developing, testing and troubleshooting the application.</li>
+							<li> Worked in a 2 member team for Development and helped delivering the tasks on time.</li>
+							<li>Responsible for training new resources and Status report.</li>
+							<li>Looking at technical feasibility of the solution along with functional team members.</li>
+						</ul>
+					</div>
+				</div>
+				<h3>PERSONAL INFORMATION</h3>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<strong class="col-md-2 col-sm-3 col-xs-12">Permanent Address:</strong><span class="col-md-10 col-sm-9 col-xs-12">Athena, Poovattoor East, Kalayapuram PO,                                             Kollam, Kerala -691560</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Nationality	:</strong><span class="col-md-10 col-sm-9 col-xs-12">Indian</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Date of Birth:</strong><span class="col-md-10 col-sm-9 col-xs-12">22nd Dec 1990</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Gender:</strong><span class="col-md-10 col-sm-9 col-xs-12">Male</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Father’s Name:</strong><span class="col-md-10 col-sm-9 col-xs-12">Somarajan Pillai</span>                        
+						<strong class="col-md-2 col-sm-3 col-xs-12">Languages:</strong><span class="col-md-10 col-sm-9 col-xs-12">English, Malayalam, Hindi, Tamil</span>
+						<strong class="col-md-2 col-sm-3 col-xs-12">Interests:</strong><span class="col-md-10 col-sm-9 col-xs-12">Music, Movies, Sports</span>
+					</div>
+				</div>
+		</div>
+		</section>
 		</div>
 	</body>
 </html>
